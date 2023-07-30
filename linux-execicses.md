@@ -26,3 +26,14 @@ ln "$(pwd)/jupiter" /tmp/jupiter_hard
 ```
 ls -i /tmp/jupiter_hard /tmp/jupiter
 ```
+
+6. List files in your home directory by the last time they were modified
+```
+ls -lt
+```
+
+7. Move jerry, george, kramer and puddy files into seinfeld directory
+```
+mv jerry george kramer puddy seinfeld/
+```
+
